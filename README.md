@@ -2,6 +2,8 @@
 
 A text-based game inspired on classic Atari's Space Invaders.
 
-The basic reference material is NCurse's reference:
+Some reference material on NCurse:
 
 http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/
+https://www.gnu.org/software/ncurses/
+http://pubs.opengroup.org/onlinepubs/7908799/xcurses/curses.h.html
