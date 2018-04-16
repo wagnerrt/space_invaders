@@ -2,7 +2,7 @@
 
 A text-based game inspired on classic Atari's Space Invaders.
 
-Some reference material on NCurse:
+Some reference material on NCurses:
 
 http://tldp.org/HOWTO/NCURSES-Programming-HOWTO/
 
