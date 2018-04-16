@@ -1,7 +1,7 @@
 # $Id$
 
 #########
-## Para gerar dependências de Makefile automaticamente:
+## Para gerar dependÃªncias de Makefile automaticamente:
 ##     gcc -MM *.cpp
 #########
 
@@ -13,9 +13,10 @@ LIBS=-lpthread -lstdc++ -lncurses
 LDFLAGS=
 LD=gcc $(LDFLAGS)
 
-OBJ=fbservice.o fullbase.o 
-
 .cpp.o:
+	$(CC) $<
+
+.c.o:
 	$(CC) $<
 
 helloword: helloword.o
